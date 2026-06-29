@@ -466,7 +466,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -670,17 +670,26 @@
     "top_level_sheets": [
       {
         "filename": "acer-flow.kicad_sch",
-        "name": "acer-flow",
+        "name": "Mcu",
         "uuid": "9b04ddd6-adf4-47b3-a519-d242798ae5c0"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "13b6bb01-17d6-4dee-a938-b043cd3ef824"
       }
     ],
-    "used_designators": "U1,U3,U6,IC1,D3,#PWR8,#PWR21-25,#PWR27,#PWR41,C10,C13,J7-8,1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "9b04ddd6-adf4-47b3-a519-d242798ae5c0",
-      "acer-flow"
+      "Mcu"
+    ],
+    [
+      "13b6bb01-17d6-4dee-a938-b043cd3ef824",
+      "Power"
     ]
   ],
   "text_variables": {},
